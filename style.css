@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    
+}
+
+body{
+    height: 100vh;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: 100vw 100vh;
+    font-family:"Red Hat Display", sans-serif;
+
+
+}
+
+.card{
+    
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+
+}
+
+.card-image > img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-info{
+    text-align: center;
+}
+.card-info-title h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.card-info-title > p{
+    color: hsl(224, 23%, 55%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.music-info{
+    width: 85%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(220, 23%, 97%) ;
+    padding: 10px;
+    justify-content: space-around;
+    border-radius:10px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.music-info  > div > p:first-child{
+    font-weight: bold;
+}
+.music-info > div > p:last-child{
+    color: hsl(224, 23%, 55%);
+
+}
+
+.music-info > a:hover{
+    text-decoration: none;
+}
+
+
+
+.buttons > button{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    
+    background-color: hsl(245, 75%, 52%);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+
+
+}
+
+.buttons > a{
+    text-decoration:none;
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    font-weight: bold;
+
+
+}
+
+.buttons > button:hover{
+    background-color: hsl(245, 70%, 67%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) ;
+}
+.buttons > a:hover{
+    color: hsl(222, 30%, 36%); ;
+}
