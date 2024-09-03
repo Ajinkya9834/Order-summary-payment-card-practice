@@ -41,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor (see my other challenges) - [@Ajinkya Hajare](https://www.frontendmentor.io/profile/Ajinkya9834)
-- My Linkedin profile - [@Ajinkya Hajare](www.linkedin.com/in/ajinkya-hajare)
+- Frontend Mentor (see my other challenges) - (https://www.frontendmentor.io/profile/Ajinkya9834)
+- My Linkedin profile - (www.linkedin.com/in/ajinkya-hajare)
 
